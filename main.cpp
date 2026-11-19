@@ -1,7 +1,64 @@
 /*
+ * PSEUDOCODE FOR THE MAIN PROGRAM
+ *
+ * START
+ * Set the default starting bankroll to $500.
+ * Open startup.txt.
+ * IF a valid positive bankroll is read THEN
+ *     use the amount from the file.
+ * ELSE
+ *     keep the $500 default and display a message.
+ * Close the input file.
+ *
+ * Display the session-length choices.
+ * Read the player's choice.
+ * WHILE the choice is outside 1 through 3
+ *     ask for another choice.
+ * Use SWITCH to set the session round limit.
+ * Ask for the player's name.
+ * Seed the random-number generator.
+ *
+ * DO
+ *     Reset the bankroll and session statistics.
+ *     FOR each round up to the session limit,
+ *         while the player has money
+ *         ask for a wager.
+ *         WHILE the wager is not affordable or positive
+ *             ask for another wager.
+ *
+ *         Roll two dice for the come-out roll.
+ *         Add the roll to the session statistics.
+ *         IF the total is 7 or 11
+ *             add the wager to the bankroll and record a win.
+ *         ELSE IF the total is 2, 3, or 12
+ *             subtract the wager and record a loss.
+ *         ELSE
+ *             save the total as the point.
+ *             WHILE neither the point nor 7 has been rolled
+ *                 roll two dice and update statistics.
+ *                 IF the total matches the point
+ *                     add the wager and record a win.
+ *                 ELSE IF the total is 7
+ *                     subtract the wager and record a loss.
+ *                 ELSE
+ *                     continue the point phase.
+ *             END WHILE
+ *         END IF
+ *     END FOR
+ *
+ *     Calculate and display the session statistics.
+ *     Append the session results to results.txt.
+ *     Ask whether the player wants another session.
+ * WHILE the player answers yes.
+ *
+ * Display the goodbye message.
+ * END
+ */
+
+/*
  * Project 1: Craps
- * Author: [Your Name]
- * Version 1: Basic game with rounds, wagers, and session statistics
+ * Author: kneoperaza
+ * Version 2: Added pseudocode comments
  */
 
 //System Libraries

@@ -257,10 +257,10 @@ int main() {
         }
 
         //Calculate and display session statistics.
-        if (wins + losses > 0) {
-            winPct = static_cast<float>(wins) * 100.0f
-                   / static_cast<float>(wins + losses);
-        }
+        winPct = (wins + losses > 0)
+               ? static_cast<float>(wins) * 100.0f
+                 / static_cast<float>(wins + losses)
+               : 0.0f;
 
         if (rolls > 0) {
             avgRol = static_cast<float>(sumRoll)

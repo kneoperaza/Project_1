@@ -1,0 +1,353 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Program Flow" id="XQdwRq-i_5VFYeALt2te">
+    <mxGraphModel dx="5050" dy="2775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-10" edge="1" parent="1" source="HgZwIauZhrFuGQgXKuRF-1" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;" target="HgZwIauZhrFuGQgXKuRF-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="Start" vertex="1">
+          <mxGeometry height="60" width="100" x="520" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-12" edge="1" parent="1" source="HgZwIauZhrFuGQgXKuRF-3" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;" target="HgZwIauZhrFuGQgXKuRF-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Read startup.txt" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-13" edge="1" parent="1" source="HgZwIauZhrFuGQgXKuRF-4" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;" target="HgZwIauZhrFuGQgXKuRF-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-14" connectable="0" parent="HgZwIauZhrFuGQgXKuRF-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.0133" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-15" edge="1" parent="1" source="HgZwIauZhrFuGQgXKuRF-4" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;" target="HgZwIauZhrFuGQgXKuRF-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-16" connectable="0" parent="HgZwIauZhrFuGQgXKuRF-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.1482" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Was a positive starting bankroll read?" vertex="1">
+          <mxGeometry height="110" width="110" x="515" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-11" edge="1" parent="1" source="HgZwIauZhrFuGQgXKuRF-7" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;" target="HgZwIauZhrFuGQgXKuRF-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-7" parent="1" style="html=1;dashed=0;whiteSpace=wrap;" value="Initialize variables; default bankroll = $500" vertex="1">
+          <mxGeometry height="50" width="100" x="520" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-8" parent="1" style="html=1;dashed=0;whiteSpace=wrap;" value="Use $500 default; display fallback message" vertex="1">
+          <mxGeometry height="50" width="100" x="330" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-9" parent="1" style="html=1;dashed=0;whiteSpace=wrap;" value="Use bankroll value from file" vertex="1">
+          <mxGeometry height="50" width="100" x="700" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-21" edge="1" parent="1" source="HgZwIauZhrFuGQgXKuRF-17" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;" target="HgZwIauZhrFuGQgXKuRF-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-17" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Display session choices; read session choice" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-18" edge="1" parent="1" source="HgZwIauZhrFuGQgXKuRF-8" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.301;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;" target="HgZwIauZhrFuGQgXKuRF-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-19" edge="1" parent="1" source="HgZwIauZhrFuGQgXKuRF-9" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.697;entryY=0.053;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;" target="HgZwIauZhrFuGQgXKuRF-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-23" edge="1" parent="1" source="HgZwIauZhrFuGQgXKuRF-20" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;" target="HgZwIauZhrFuGQgXKuRF-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-24" connectable="0" parent="HgZwIauZhrFuGQgXKuRF-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.1662" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-20" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Is this choice 1, 2, or 3" vertex="1">
+          <mxGeometry height="110" width="110" x="515" y="827" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-6" edge="1" parent="1" source="HgZwIauZhrFuGQgXKuRF-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oloUwvdr7CsBXDRJPmcr-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Use switch to set session round limit" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="1004" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-1" edge="1" parent="1" source="HgZwIauZhrFuGQgXKuRF-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.86;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="HgZwIauZhrFuGQgXKuRF-17">
+          <mxGeometry relative="1" x="0.0169" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-2" connectable="0" parent="oloUwvdr7CsBXDRJPmcr-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="No" vertex="1">
+          <mxGeometry relative="1" x="0.0097" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-7" edge="1" parent="1" source="oloUwvdr7CsBXDRJPmcr-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oloUwvdr7CsBXDRJPmcr-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Read player&#39;s first name" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-8" edge="1" parent="1" source="oloUwvdr7CsBXDRJPmcr-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oloUwvdr7CsBXDRJPmcr-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Seed random-number generator" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-12" edge="1" parent="1" source="oloUwvdr7CsBXDRJPmcr-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oloUwvdr7CsBXDRJPmcr-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Reset bankroll and session statistics" vertex="1">
+          <mxGeometry height="60" width="640" x="250" y="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-13" edge="1" parent="1" source="oloUwvdr7CsBXDRJPmcr-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oloUwvdr7CsBXDRJPmcr-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-9" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Display welcome and starting bankroll" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-14" edge="1" parent="1" source="oloUwvdr7CsBXDRJPmcr-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oloUwvdr7CsBXDRJPmcr-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Set round counter to 1" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="1800" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-16" edge="1" parent="1" source="oloUwvdr7CsBXDRJPmcr-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oloUwvdr7CsBXDRJPmcr-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-17" connectable="0" parent="oloUwvdr7CsBXDRJPmcr-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.0333" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-19" edge="1" parent="1" source="oloUwvdr7CsBXDRJPmcr-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oloUwvdr7CsBXDRJPmcr-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-20" connectable="0" parent="oloUwvdr7CsBXDRJPmcr-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.0628" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-11" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Rounds remain and bankroll &amp;gt; $0?" vertex="1">
+          <mxGeometry height="180" width="180" x="480" y="1920" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-29" edge="1" parent="1" source="oloUwvdr7CsBXDRJPmcr-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oloUwvdr7CsBXDRJPmcr-21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-15" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Enter wager" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="2170" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-49" edge="1" parent="1" source="oloUwvdr7CsBXDRJPmcr-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oloUwvdr7CsBXDRJPmcr-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-18" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Calculate and display summary; append summary to results.txt" vertex="1">
+          <mxGeometry height="100" width="120" x="750" y="1960" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-31" edge="1" parent="1" source="oloUwvdr7CsBXDRJPmcr-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oloUwvdr7CsBXDRJPmcr-30" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-32" connectable="0" parent="oloUwvdr7CsBXDRJPmcr-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.1222" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-21" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Is wager from $1 to bankroll" vertex="1">
+          <mxGeometry height="110" width="110" x="515" y="2330" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-34" edge="1" parent="1" source="oloUwvdr7CsBXDRJPmcr-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oloUwvdr7CsBXDRJPmcr-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Roll dice and resolve round (see Round Logic page)" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="2530" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-40" edge="1" parent="1" source="oloUwvdr7CsBXDRJPmcr-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oloUwvdr7CsBXDRJPmcr-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Update session statistics; advance round" vertex="1">
+          <mxGeometry height="90" width="180" x="480" y="2710" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-36" edge="1" parent="1" source="oloUwvdr7CsBXDRJPmcr-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.005;entryY=0.901;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oloUwvdr7CsBXDRJPmcr-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-37" connectable="0" parent="oloUwvdr7CsBXDRJPmcr-36" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="No" vertex="1">
+          <mxGeometry relative="1" x="0.0812" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-48" edge="1" parent="1" source="oloUwvdr7CsBXDRJPmcr-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oloUwvdr7CsBXDRJPmcr-42" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-41" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Ask whether to play another session (y/n)" vertex="1">
+          <mxGeometry height="60" width="120" x="750" y="2170" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-43" edge="1" parent="1" source="oloUwvdr7CsBXDRJPmcr-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oloUwvdr7CsBXDRJPmcr-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-47" connectable="0" parent="oloUwvdr7CsBXDRJPmcr-43" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.0907" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-45" edge="1" parent="1" source="oloUwvdr7CsBXDRJPmcr-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oloUwvdr7CsBXDRJPmcr-44" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-46" connectable="0" parent="oloUwvdr7CsBXDRJPmcr-45" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.1468" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-42" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Play another session?" vertex="1">
+          <mxGeometry height="150" width="140" x="740" y="2310" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-51" edge="1" parent="1" source="oloUwvdr7CsBXDRJPmcr-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="oloUwvdr7CsBXDRJPmcr-50" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-44" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Display goodbye message." vertex="1">
+          <mxGeometry height="60" width="120" x="750" y="2530" as="geometry" />
+        </mxCell>
+        <mxCell id="oloUwvdr7CsBXDRJPmcr-50" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="End" vertex="1">
+          <mxGeometry height="80" width="120" x="750" y="2670" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9OGoUErNl-LC7jNqejrp" name="Round Logic">
+    <mxGraphModel dx="2104" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-22" edge="1" parent="1" source="ySoqP2nTiNg2RI_CL9M3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="ySoqP2nTiNg2RI_CL9M3-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Begin round" vertex="1">
+          <mxGeometry height="80" width="120" x="140" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-23" edge="1" parent="1" source="ySoqP2nTiNg2RI_CL9M3-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="ySoqP2nTiNg2RI_CL9M3-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Roll two dice; calculate total" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-18" edge="1" parent="1" source="ySoqP2nTiNg2RI_CL9M3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="ySoqP2nTiNg2RI_CL9M3-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-19" connectable="0" parent="ySoqP2nTiNg2RI_CL9M3-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="0.0211" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-24" edge="1" parent="1" source="ySoqP2nTiNg2RI_CL9M3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="ySoqP2nTiNg2RI_CL9M3-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-25" connectable="0" parent="ySoqP2nTiNg2RI_CL9M3-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.08" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Is the total 7 or 11?" vertex="1">
+          <mxGeometry height="120" width="120" x="140" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-49" edge="1" parent="1" source="ySoqP2nTiNg2RI_CL9M3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="ySoqP2nTiNg2RI_CL9M3-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Win; add wager to bankroll" vertex="1">
+          <mxGeometry height="60" width="200" x="360" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-20" edge="1" parent="1" source="ySoqP2nTiNg2RI_CL9M3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="ySoqP2nTiNg2RI_CL9M3-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-21" connectable="0" parent="ySoqP2nTiNg2RI_CL9M3-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.1201" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-26" edge="1" parent="1" source="ySoqP2nTiNg2RI_CL9M3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="ySoqP2nTiNg2RI_CL9M3-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-27" connectable="0" parent="ySoqP2nTiNg2RI_CL9M3-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.0764" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Is the total 2, 3, or 12?" vertex="1">
+          <mxGeometry height="120" width="120" x="140" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-50" edge="1" parent="1" source="ySoqP2nTiNg2RI_CL9M3-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="ySoqP2nTiNg2RI_CL9M3-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Lose; subtract wager" vertex="1">
+          <mxGeometry height="60" width="230" x="-170" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-28" edge="1" parent="1" source="ySoqP2nTiNg2RI_CL9M3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="ySoqP2nTiNg2RI_CL9M3-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Set point to the total" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-29" edge="1" parent="1" source="ySoqP2nTiNg2RI_CL9M3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="ySoqP2nTiNg2RI_CL9M3-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Roll two dice; calculate total" vertex="1">
+          <mxGeometry height="60" width="660" x="-130" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-16" edge="1" parent="1" source="ySoqP2nTiNg2RI_CL9M3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="ySoqP2nTiNg2RI_CL9M3-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-17" connectable="0" parent="ySoqP2nTiNg2RI_CL9M3-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Yes" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-30" edge="1" parent="1" source="ySoqP2nTiNg2RI_CL9M3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="ySoqP2nTiNg2RI_CL9M3-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-31" connectable="0" parent="ySoqP2nTiNg2RI_CL9M3-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.0938" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-9" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Does the total equal the point?" vertex="1">
+          <mxGeometry height="120" width="120" x="140" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Win; add wager to bankroll" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-14" edge="1" parent="1" source="ySoqP2nTiNg2RI_CL9M3-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="ySoqP2nTiNg2RI_CL9M3-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-33" connectable="0" parent="ySoqP2nTiNg2RI_CL9M3-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.145" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-35" edge="1" parent="1" source="ySoqP2nTiNg2RI_CL9M3-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;">
+          <mxGeometry relative="1" x="-0.7937" as="geometry">
+            <mxPoint x="530" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-36" connectable="0" parent="ySoqP2nTiNg2RI_CL9M3-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="No" vertex="1">
+          <mxGeometry relative="1" x="0.4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-11" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Is the total 7?" vertex="1">
+          <mxGeometry height="200" width="200" x="100" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Lose; subtract wager" vertex="1">
+          <mxGeometry height="60" width="120" x="-130" y="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-38" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Round complete" vertex="1">
+          <mxGeometry height="80" width="120" x="140" y="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-51" edge="1" parent="1" source="ySoqP2nTiNg2RI_CL9M3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="ySoqP2nTiNg2RI_CL9M3-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ySoqP2nTiNg2RI_CL9M3-52" edge="1" parent="1" source="ySoqP2nTiNg2RI_CL9M3-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="ySoqP2nTiNg2RI_CL9M3-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

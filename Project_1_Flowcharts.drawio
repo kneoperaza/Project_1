@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Program Flow" id="XQdwRq-i_5VFYeALt2te">
+    <mxGraphModel dx="566" dy="332" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-10" edge="1" parent="1" source="HgZwIauZhrFuGQgXKuRF-1" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;" target="HgZwIauZhrFuGQgXKuRF-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="Start" vertex="1">
+          <mxGeometry height="60" width="100" x="520" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-12" edge="1" parent="1" source="HgZwIauZhrFuGQgXKuRF-3" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;" target="HgZwIauZhrFuGQgXKuRF-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Read startup.txt" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-13" edge="1" parent="1" source="HgZwIauZhrFuGQgXKuRF-4" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;" target="HgZwIauZhrFuGQgXKuRF-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-14" connectable="0" parent="HgZwIauZhrFuGQgXKuRF-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.0133" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-15" edge="1" parent="1" source="HgZwIauZhrFuGQgXKuRF-4" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;" target="HgZwIauZhrFuGQgXKuRF-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-16" connectable="0" parent="HgZwIauZhrFuGQgXKuRF-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.1482" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Was a positive starting bankroll read?" vertex="1">
+          <mxGeometry height="110" width="110" x="515" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-11" edge="1" parent="1" source="HgZwIauZhrFuGQgXKuRF-7" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;" target="HgZwIauZhrFuGQgXKuRF-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-7" parent="1" style="html=1;dashed=0;whiteSpace=wrap;" value="Initialize variables; default bankroll = $500" vertex="1">
+          <mxGeometry height="50" width="100" x="520" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-8" parent="1" style="html=1;dashed=0;whiteSpace=wrap;" value="Use $500 default; display fallback message" vertex="1">
+          <mxGeometry height="50" width="100" x="330" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-9" parent="1" style="html=1;dashed=0;whiteSpace=wrap;" value="Use bankroll value from file" vertex="1">
+          <mxGeometry height="50" width="100" x="700" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-21" edge="1" parent="1" source="HgZwIauZhrFuGQgXKuRF-17" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;" target="HgZwIauZhrFuGQgXKuRF-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-17" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Display session choices; read session choice" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-18" edge="1" parent="1" source="HgZwIauZhrFuGQgXKuRF-8" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.301;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;" target="HgZwIauZhrFuGQgXKuRF-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-19" edge="1" parent="1" source="HgZwIauZhrFuGQgXKuRF-9" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.697;entryY=0.053;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;" target="HgZwIauZhrFuGQgXKuRF-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-23" edge="1" parent="1" source="HgZwIauZhrFuGQgXKuRF-20" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;defaultLabelBackgroundColor=page;startSize=8;endSize=8;" target="HgZwIauZhrFuGQgXKuRF-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-24" connectable="0" parent="HgZwIauZhrFuGQgXKuRF-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;fontSize=12;defaultLabelBackgroundColor=page;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.1662" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-20" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Is this choice 1, 2, or 3" vertex="1">
+          <mxGeometry height="110" width="110" x="515" y="827" as="geometry" />
+        </mxCell>
+        <mxCell id="HgZwIauZhrFuGQgXKuRF-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Use switch to set session round limit" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="1004" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
